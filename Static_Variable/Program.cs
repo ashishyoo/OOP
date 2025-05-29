@@ -16,6 +16,6 @@ class Program
         Counter c2 = new Counter();
         Counter c3 = new Counter();
 
-        Console.WriteLine($"Total objects created: {Counter.TotalCount}");
+        Console.WriteLine($"Total objects created: {Counter.TotalCount}"); // Output: Total objects created: 3
     }
 }
