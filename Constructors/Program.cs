@@ -26,9 +26,9 @@ class Program
 {
     static void Main(String[] args)
     {
-        Person person1 = new Person(); // calls Person()
-        person1.Introduce();
-        Person person2 = new Person(1, "Yeju"); // calls Person(int id, string name)
+        Person person1 = new Person(); // Output: Person object created..
+        person1.Introduce(); // Output: Hi, my name is undefined and my id is 0
+        Person person2 = new Person(1, "Yeju"); // Output: Hi, my name is Yeju and my id is 1
         person2.Introduce();
     }
 }
