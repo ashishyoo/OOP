@@ -30,11 +30,11 @@ class Program
     static void Main(string[] args)
     {
         Dog dog = new Dog();
-        dog.Eat();
-        dog.Bark();
+        dog.Eat(); // Output: Eating food...
+        dog.Bark(); // Output: Barking...
 
         Cat cat = new Cat();
-        cat.Eat();
-        cat.Meow();
+        cat.Eat(); // Output: Eating food...
+        cat.Meow(); // Output: Meowing...
     }
 }
