@@ -42,9 +42,9 @@ class Program
     static void Main(string[] args)
     {
         BankAccount account = new BankAccount();
-        account.Deposit(1000);
-        account.Withdraw(200);
-        Console.WriteLine($"Current Balance: {account.GetBalance():f2}");
+        account.Deposit(1000); // Output: Deposited: 1000
+        account.Withdraw(200); // Output: Withdrawn: 200
+        Console.WriteLine($"Current Balance: {account.GetBalance():f2}"); // Output: Current Balance: 800.00
 
         // account.balance = 5000; // Not allowed, balance is private
     }
