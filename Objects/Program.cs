@@ -4,7 +4,7 @@
 
     public void Introduce()
     {
-        Console.WriteLine($"Hi, my name is {name}");
+        Console.WriteLine($"Hi, my name is {name}.");
     }
 }
 
@@ -14,6 +14,6 @@ class Program
     {
         Person person = new Person(); // creating Person object
         person.name = "Yeju";
-        person.Introduce();
+        person.Introduce(); // Output: Hi, my name is Yeju.
     }
 }
