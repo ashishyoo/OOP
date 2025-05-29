@@ -29,9 +29,9 @@ class Program
         Animal myAnimal;
 
         myAnimal = new Dog();
-        myAnimal.Speak();
+        myAnimal.Speak(); // Output: Dog barks
 
         myAnimal = new Cat();
-        myAnimal.Speak();
+        myAnimal.Speak(); // Output: Cat meows
     }
 }
