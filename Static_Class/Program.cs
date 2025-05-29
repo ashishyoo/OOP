@@ -18,7 +18,7 @@ class Program
         int sum = Calculator.Add(10, 5);
         int product = Calculator.Multiply(4, 6);
 
-        Console.WriteLine($"Sum: {sum}");
-        Console.WriteLine($"Product: {product}");
+        Console.WriteLine($"Sum: {sum}"); // Output: Sum: 15
+        Console.WriteLine($"Product: {product}"); // Output: Product: 24
     }
 }
